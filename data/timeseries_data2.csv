@@ -1,0 +1,21 @@
+col_name,group,ticker,name,nation
+WorldIndex | S&P 500,WorldIndex,^GSPC,S&P 500,US
+WorldIndex | Dow Jones,WorldIndex,^DJI,Dow Jones,US
+WorldIndex | Nasdaq,WorldIndex,^IXIC,Nasdaq,US
+WorldIndex | VIX,WorldIndex,^VIX,VIX,US
+WorldIndex | KOSPI,WorldIndex,^KS11,KOSPI,Korea
+WorldIndex | KOSDAQ,WorldIndex,^KQ11,KOSDAQ,Korea
+WorldIndex | FTSE 100,WorldIndex,^FTSE,FTSE 100,UK
+WorldIndex | Nikkei 225,WorldIndex,^N225,Nikkei 225,Japan
+WorldIndex | DAX,WorldIndex,^GDAXI,DAX,Germany
+WorldIndex | CAC 40,WorldIndex,^FCHI,CAC 40,France
+Currency | USD/KRW,Currency,USDKRW=X,USD/KRW,Korea
+Currency | USD/CNY,Currency,USDCNY=X,USD/CNY,China
+Currency | USD/JPY,Currency,USDJPY=X,USD/JPY,Japan
+Currency | USD/EUR,Currency,USDEUR=X,USD/EUR,Eurozone
+Currency | USD/GBP,Currency,USDGBP=X,USD/GBP,UK
+Currency | USD/CAD,Currency,USDCAD=X,USD/CAD,Canada
+Commodity | Gold,Commodity,GC=F,Gold,
+Commodity | Crude Oil,Commodity,CL=F,Crude Oil,
+Commodity | Brent Crude,Commodity,BZ=F,Brent Crude,
+Commodity | Natural Gas,Commodity,NG=F,Natural Gas,
