@@ -1,0 +1,9 @@
+arch,target_mode,loss_type,out_act,n_params,trainable_params,approx_flops,train_time_sec
+tcn,level,mse,none,2583,2583,N/A,129.6743142604828
+cnn,level,mse,none,10383,10383,N/A,160.03749465942383
+tcn,level,huber,none,2583,2583,N/A,244.0245041847229
+cnn,level,huber,none,10383,10383,N/A,124.79041171073914
+tcn,diff,mse,none,2753,2753,N/A,252.55812621116638
+cnn,diff,mse,none,11073,11073,N/A,105.5119309425354
+tcn,log,mse,none,2753,2753,N/A,311.97296810150146
+cnn,log,mse,none,11073,11073,N/A,130.04497170448303

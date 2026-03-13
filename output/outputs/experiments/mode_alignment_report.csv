@@ -1,0 +1,4 @@
+target_mode,model_target_col,first_valid_date,last_valid_date,n_samples_total,n_train,n_val,n_test
+level,VIX,2016-01-05 00:00:00,2026-03-08 00:00:00,2653,1857,397,399
+diff,VIX_diff,2016-01-05 00:00:00,2026-03-08 00:00:00,2653,1857,397,399
+log,log_VIX,2016-01-05 00:00:00,2026-03-08 00:00:00,2653,1857,397,399

@@ -1,0 +1,34 @@
+{
+  "best_key_by_val": [
+    5,
+    "log",
+    "mse",
+    "none",
+    "cnn"
+  ],
+  "best_tcn_key_by_val": [
+    5,
+    "diff",
+    "mse",
+    "none",
+    "tcn"
+  ],
+  "final_test_rmse_best_model": 2.262730598449707,
+  "final_test_rmse_best_tcn": 2.215744131485984,
+  "baseline_comparison": [
+    {
+      "baseline_name": "naive",
+      "split": "test",
+      "rmse_level": 2.119464159011841,
+      "seed": 5,
+      "target_mode": "level"
+    },
+    {
+      "baseline_name": "drift",
+      "split": "test",
+      "rmse_level": 2.119464159011841,
+      "seed": 5,
+      "target_mode": "level"
+    }
+  ]
+}

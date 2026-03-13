@@ -1,0 +1,21 @@
+cnn_channels,cnn_kernel,n_params,val_loss_best,val_rmse_level,over_budget,selected,seed,target_mode,loss_type,out_act
+"(8, 8)",3,5463,,,True,False,5,level,mse,none
+"(8, 8)",5,7623,,,True,False,5,level,mse,none
+"(8, 16)",3,10383,,,True,False,5,level,mse,none
+"(8, 16)",5,14463,,,True,False,5,level,mse,none
+"(16, 16)",3,16623,,,True,False,5,level,mse,none
+"(16, 16)",5,24783,,,True,False,5,level,mse,none
+"(16, 32)",3,32223,,,True,False,5,level,mse,none
+"(16, 32)",5,48063,,,True,False,5,level,mse,none
+"(32, 32)",3,56223,,,True,False,5,level,mse,none
+"(32, 32)",5,87903,,,True,False,5,level,mse,none
+"(8, 8)",3,5825,,,True,False,5,diff,mse,none
+"(8, 8)",5,8129,,,True,False,5,diff,mse,none
+"(8, 16)",3,11073,,,True,False,5,diff,mse,none
+"(8, 16)",5,15425,,,True,False,5,diff,mse,none
+"(16, 16)",3,17729,,,True,False,5,diff,mse,none
+"(16, 16)",5,26433,,,True,False,5,diff,mse,none
+"(16, 32)",3,34369,,,True,False,5,diff,mse,none
+"(16, 32)",5,51265,,,True,False,5,diff,mse,none
+"(32, 32)",3,59969,,,True,False,5,diff,mse,none
+"(32, 32)",5,93761,,,True,False,5,diff,mse,none

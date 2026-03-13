@@ -1,0 +1,23 @@
+{
+  "exp_name": "event_005_gap20",
+  "target_events_requested": 5,
+  "target_events_actual": 11,
+  "q_event": 0.986,
+  "min_gap": 20,
+  "horizon": 5,
+  "positive_only": true,
+  "save_dir": "outputs/event_target_sweep/event_005_gap20",
+  "event_dates": [
+    "2024-07-29",
+    "2024-07-30",
+    "2024-07-31",
+    "2024-08-01",
+    "2024-08-02",
+    "2024-12-11",
+    "2025-03-28",
+    "2025-03-31",
+    "2025-04-01",
+    "2025-04-02",
+    "2025-04-03"
+  ]
+}

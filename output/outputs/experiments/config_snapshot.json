@@ -1,0 +1,50 @@
+{
+  "seq_len": 20,
+  "batch_size": 64,
+  "epochs": 300,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "target_col": "VIX",
+  "drop_cols": [
+    "Silver",
+    "Copper",
+    "USD/GBP",
+    "USD/CNY",
+    "USD/JPY",
+    "USD/EUR",
+    "USD/CAD"
+  ],
+  "architectures": [
+    "tcn",
+    "cnn"
+  ],
+  "experiment_settings": [
+    [
+      "level",
+      "mse",
+      "none"
+    ],
+    [
+      "level",
+      "huber",
+      "none"
+    ],
+    [
+      "diff",
+      "mse",
+      "none"
+    ],
+    [
+      "log",
+      "mse",
+      "none"
+    ]
+  ],
+  "selection_metric": "val_rmse_level",
+  "seeds": [
+    5
+  ],
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "param_budget": 4000
+}

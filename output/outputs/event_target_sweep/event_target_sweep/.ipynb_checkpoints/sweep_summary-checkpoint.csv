@@ -1,0 +1,5 @@
+exp_name,test_start,test_end,target_events_requested,target_events_actual,min_gap,q_event
+event_005_gap20,2023-03-24,2025-12-30,5,11,20,0.986
+event_010_gap10,2023-03-24,2025-12-30,10,11,10,0.986
+event_020_gap10,2023-03-24,2025-12-30,20,20,10,0.974
+event_030_gap10,2023-03-24,2025-12-30,30,30,10,0.959

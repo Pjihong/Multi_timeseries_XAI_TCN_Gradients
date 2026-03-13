@@ -1,0 +1,15 @@
+{
+  "target": 0,
+  "N": 702,
+  "n_ev": 7,
+  "n_ct": 27,
+  "horizon": 5,
+  "q_event": 0.962,
+  "min_gap": 20,
+  "band": 5,
+  "alpha": 1.5,
+  "top_p": 0.2,
+  "pooling": "cam_weighted",
+  "n_perm": 10,
+  "seed": 42
+}
